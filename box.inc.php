@@ -115,9 +115,8 @@ function plugin_box_convert()
 
 		case "next":
 			// end→startを行う。段組み的なもの。
-			if( $plugin_box_count <=1){
-				// 段組みなので少なくとも「親」「兄弟」の２つが
-				// startしていないとダメ。
+			if( $plugin_box_count <1){
+				// 段組みなので「前段落」が startしていないとダメ。
 				// start少なすぎエラーを戻す。
 				$retstr = "too few #box(start).";
 			}else{
