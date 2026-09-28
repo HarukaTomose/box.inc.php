@@ -1,0 +1,25 @@
+/* box 
+--------------------------------------------------------------------------*/
+div.plugin_box{
+	background-color:#feffff;
+	margin:1em;
+	padding:5px 10px;
+	border: 1px solid #000;
+		
+}
+
+div.plugin_box_multi{
+	display:flex;
+	background-color:#feffff;
+	margin:0px;
+	padding:0px;
+	border: 0px	
+}
+
+div.plugin_box_grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 100px 100px;
+	row-gap: 5px;
+	column-gap: 5px;
+}
