@@ -10,8 +10,14 @@ div.plugin_box{
 
 div.plugin_box_multi{
 	display:flex;
-	background-color:#feffff;
 	margin:0px;
+	padding:0px;
+	border: 0px	
+}
+
+div.plugin_box_child{
+	background-color:#feffff;
+	margin:1px;
 	padding:0px;
 	border: 0px	
 }
